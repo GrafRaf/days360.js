@@ -1,0 +1,36 @@
+{
+  "name": "days360.js",
+  "version": "1.0.0",
+  "description": "days360 excel function for js",
+  "main": "days360.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GrafRaf/days360.js.git"
+  },
+  "keywords": [],
+  "author": "raf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GrafRaf/days360.js/issues"
+  },
+  "homepage": "https://github.com/GrafRaf/days360.js",
+  "devDependencies": {
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.8",
+    "karma-ie-launcher": "^0.1.5",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-requirejs": "^0.2.2",
+    "requirejs": "^2.1.17"
+  },
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "jasmine": "^2.2.1",
+    "jasmine-node-karma": "^1.6.1",
+    "requirejs": "^2.1.17"
+  }
+}

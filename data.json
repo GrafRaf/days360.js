@@ -1,0 +1,10 @@
+{
+    "testdataset": [
+        {
+            "method": "American",
+            "date1": { "d": 29, "m": "10", y: 2014 },
+            "date2": { "d": 29, "m": "10", y: 2014 },
+            "result": 2
+        }
+    ]
+}
