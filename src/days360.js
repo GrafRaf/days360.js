@@ -19,7 +19,7 @@ function Days360(sd, fd, m) {
     if (method) {
         // euro
         if (d1_d == 31) d1_d = 30;
-        if (d2_d == 31) d2_2 = 30;
+        if (d2_d == 31) d2_d = 30;
     } else {
         // american NASD
         if (d1_d == 31) d1_d = 30;

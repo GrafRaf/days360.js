@@ -1,7 +1,7 @@
 # days360.js
 days360 excel function for js
 
-## MS function description
+## Function description from support.office.com
 [source](https://support.office.com/en-us/article/DAYS360-function-c80baf88-68b5-464e-ad63-2215912eca43?CTT=3&CorrelationId=d71015c7-2053-4bea-999e-be08d503fb3c&ui=en-US&rs=en-US&ad=US)
 
 ###DAYS360 function
@@ -26,7 +26,7 @@ For more information, see [Change the date system, format, or two-digit year int
 * **method**    Optional. A logical value that specifies whether to use the U.S. or European method in the calculation.
 
 |Method            | Defined                                                                                                                                                                                                                                                                                                                                                                          |
-|----------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|----------------- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |FALSE or omitted  | U.S. (NASD) method. If the starting date is the last day of a month, it becomes equal to the 30th day of the same month. If the ending date is the last day of a month and the starting date is earlier than the 30th day of a month, the ending date becomes equal to the 1st day of the next month; otherwise the ending date becomes equal to the 30th day of the same month. |
 |TRUE              | European method. Starting dates and ending dates that occur on the 31st day of a month become equal to the 30th day of the same month.                                                                                                                                                                                                                                           |
 
