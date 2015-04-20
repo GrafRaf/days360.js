@@ -15,7 +15,6 @@ function Days360(sd, fd, m) {
     var d1_d = d1.getDate();
     var d2_d = d2.getDate();
     var dd = 0;
-    var sign = 1.0;
     if (method) {
         // euro
         if (d1_d == 31) d1_d = 30;
@@ -41,8 +40,6 @@ function Days360(sd, fd, m) {
     dy = d2_y - d1_y;
     dm = d2_m - d1_m;
     dd = d2_d - d1_d;
-    //d1_d = d1_1 - d1_1.getTimezoneOffset() * 1000;
-    //d2_d = d2_1 - d2_1.getTimezoneOffset() * 1000;
     return parseFloat(dy * 360 + dm * 30 + dd);
 }
 
