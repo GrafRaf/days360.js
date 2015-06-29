@@ -1,5 +1,6 @@
 # days360.js
 days360 excel function for js
+[source code](https://raw.githubusercontent.com/GrafRaf/days360.js/master/src/days360.js)
 
 ## Function description from support.office.com
 [source](https://support.office.com/en-us/article/DAYS360-function-c80baf88-68b5-464e-ad63-2215912eca43?CTT=3&CorrelationId=d71015c7-2053-4bea-999e-be08d503fb3c&ui=en-US&rs=en-US&ad=US)
